@@ -8,16 +8,16 @@ int main()
            
             if(((n+1)/2)==t){
                 for(int i=1;i<=n;i++){
-                printf("*");
+                printf(" * ");
             }
         }
            else{
             for(int k=1;k<=n;k++){
                 if(k==((n+1)/2)){
-                    printf("*");
+                    printf(" * ");
                 }
                 else{
-                    printf("#");
+                    printf("   ");
                 }
             }
            }printf("\n");
