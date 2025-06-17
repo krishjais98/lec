@@ -7,7 +7,7 @@ int main()
     printf("INPUT BY USER:%d\n",n);
     for(int t=1;t<=n;t++){
         for(int i=1;i<=t;i++){
-            printf(" * ");
+            printf(" * ");`
         }
         printf("\n");
     }
