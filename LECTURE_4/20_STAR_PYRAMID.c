@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("ENTER THE VALUE FOR NUMBER FOR ROWS:");
+    scanf("%d",&n);
+    printf("INPUT BY USER:%d\n",n);
+    int d=n+1;
+    for(int r=1;r<=n;r++,d=d+2){
+        for(int c=1;c<=((2*n)-1);c++){
+            if(r+c>=n+1 && r+c<=d){
+                printf(" * ");
+            }
+            else{
+                printf("   ");
+            }
+        }
+        printf("\n");
+    }
+    return 0;
+}
