@@ -2,8 +2,8 @@
 int swap(int a,int b){
     a=a+b;    //TOTAL
     b=a-b;   //SWAP VALUE OF b
-    a=a-b;    ////SWAP VALUE OF a
-    printf("VALUE OF 'a':%d AND OF 'b':%d",a,b);
+    a=a-b;    //SWAP VALUE OF a
+    printf("VALUE OF a=%d AND OF b=%d\n",a,b);
     return 0;}
 int main(){
     int a,b;

@@ -9,6 +9,6 @@ int main()
     printf("ENTER THE NUMBER:");
     scanf("%d",&n);
     printf("INPUT BY USER:%d\n",n);
-    printf("%d",fact(n));
+    printf("%d\n",fact(n));
     return 0;
 }

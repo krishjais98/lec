@@ -13,6 +13,6 @@ int main(){
         }
         else{i++;}
     }
-    printf("<-- THESE ARE THE PRIME FACTORS OF %d",s);
+    printf("<-- THESE ARE THE PRIME FACTORS OF %d\n",s);
     return 0;
 }
