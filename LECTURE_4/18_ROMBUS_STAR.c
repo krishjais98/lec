@@ -1,11 +1,12 @@
 #include <stdio.h>
 int main()
-{   int n;
+{   int a,n;
     printf("ENTER THE VALUE FOR NUMBER FOR NUMBER FOR ROWS:");
-    scanf("%d",&n);
-    printf("INPUT BY USER:%d\n",n);
-    for(int r=1;r<=n;r++){
-        for(int c=1;c<=(2*n-1);c++){
+    scanf("%d",&a);
+    printf("INPUT BY USER:%d\n",a);
+    n=a-1;
+    for(int r=0;r<=n;r++){
+        for(int c=0;c<=(2*n);c++){
             if(r+c>2*n || r+c<n){
                 printf("   ");
             }

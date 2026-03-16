@@ -8,7 +8,7 @@ int main(){
     printf("ENTER THE NUMBER:");
     scanf("%d",&n);
     printf("INPUT BY USER:%d\n",n);
-    printf("%d",fib-o(n));
+    printf("%d",fibo(n));
     return 0;
 }
 // METHOD 2
