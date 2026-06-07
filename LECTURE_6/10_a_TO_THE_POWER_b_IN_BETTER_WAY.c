@@ -1,20 +1,22 @@
 #include <stdio.h>
-void toh(int n,char s,char h,char d)
-{
-  if(n==0){
-    return;
-  }
-  toh(n-1,s,d,h);
-  printf("%c-->>%c\n",s,d);
-  toh(n-1,h,s,d);
-  return;
+int pow(int a,int b){
+    if(b==0){return 1;}
+    if(b==1){return a;}
+      int same=pow(a,b/2);
+    if(b%2==0)
+      return same*same;
+      else{
+        return a*same*same;
+      }
     }
 int main(){
-    int n;
-    printf("ENTER THE NUMBER OF DISK:");
-    scanf("%d",&n);
-    printf("INPUT BY USER:%d\n",n);
-   
-  toh(n,'A','B','C');
+    int a,b;
+    printf("ENTER BASE:");
+    scanf("%d",&a);
+    printf("INPUT BY USER:%d\n",a);
+    printf("ENTER POWER:");
+    scanf("%d",&b);
+    printf("INPUT BY USER:%d\n",b);
+    printf("%d",pow(a,b));
     return 0;
 }
