@@ -10,7 +10,7 @@ int main(){
     printf("ENTER THE VALUE FOR NUMBER OF ROWS:");
     scanf("%d",&r);
     printf("INPUT BY USER:%d\n",r);
-    printf("ENTER THE VALUE FOR NUMBER OF ROWS:");
+    printf("ENTER THE VALUE FOR NUMBER OF Column:");
     scanf("%d",&c);
     printf("INPUT BY USER:%d\n",c);
     printf("%d",maze(r,c,1,1));
