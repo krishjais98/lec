@@ -17,6 +17,12 @@ int main(){
             }
         }
     }  
-      printf("The 2nd Largest Number is:%d ",arr[n-2]);
+    int IImax=0;
+       for(int i=0;i<n;i++){
+        if(arr[i]<arr[n-1]){
+            IImax=arr[i];
+        }
+ }
+        printf("THE 2ND LARGEST NUMBER IS:%d",IImax);
     return 0;
 }
