@@ -16,7 +16,7 @@ int main(){
         arr[n-1-i]=arr[n-1-i]+arr[i];
         arr[i]=arr[n-1-i]-arr[i];
         arr[n-1-i]=arr[n-1-i]-arr[i];
-    }
+    } 
     
     printf("Reversed Array:");
     for(int i=0;i<n;i++){
